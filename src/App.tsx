@@ -24,14 +24,14 @@ export default function App() {
       {/* Ambient background glow */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 sm:w-[480px] h-80 sm:h-[480px] bg-[#8B1EC4]/18 rounded-full blur-[100px] pointer-events-none" />
 
-      {/* 1. Barra Vermelha no Topo - Última Chance */}
-      <aside aria-label="Aviso de última chance" className="bg-gradient-to-r from-red-700 via-rose-600 to-red-700 text-white py-2 px-3 text-center border-b border-red-500/30 shadow-md shrink-0 z-30">
-        <div className="max-w-xl mx-auto flex items-center justify-center gap-2 text-xs sm:text-sm md:text-base font-bold tracking-wide uppercase">
-          <AlertTriangle className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 text-amber-300 animate-wiggle" />
+      {/* 1. Barra Vermelha no Topo - Última Chance (+10% em tamanho e tipografia) */}
+      <aside aria-label="Aviso de última chance" className="bg-gradient-to-r from-red-700 via-rose-600 to-red-700 text-white py-2.5 px-3.5 text-center border-b border-red-500/30 shadow-md shrink-0 z-30">
+        <div className="max-w-xl mx-auto flex items-center justify-center gap-2.5 text-[0.825rem] sm:text-[1rem] md:text-[1.125rem] font-bold tracking-wide uppercase">
+          <AlertTriangle className="w-[18px] h-[18px] sm:w-[22px] sm:h-[22px] shrink-0 text-amber-300 animate-wiggle" />
           <span className="inline-block animate-price-scale font-black text-amber-200 drop-shadow-[0_1px_8px_rgba(0,0,0,0.4)]">
             Última chance!
           </span>
-          <AlertTriangle className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 text-amber-300 animate-wiggle" />
+          <AlertTriangle className="w-[18px] h-[18px] sm:w-[22px] sm:h-[22px] shrink-0 text-amber-300 animate-wiggle" />
         </div>
       </aside>
 
